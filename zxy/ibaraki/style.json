@@ -1,0 +1,54 @@
+{
+  "version": 8,
+  "sources": {
+    "ibaraki": {
+      "type": "vector",
+      "attribution": "国土数値情報",
+      "minzoom": 8,
+      "maxzoom": 14,
+      "tiles": [
+        "https://magn01ia.github.io/kasen-vt/zxy/ibaraki/{z}/{x}/{y}.pbf"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "id": "kasen",
+      "minzoom": 8,
+      "maxzoom": 20,
+      "paint": {
+        "line-color": "#4169e1",
+        "line-width": 1.5
+      },
+      "source": "ibaraki",
+      "source-layer": "kasen",
+      "type": "line"
+    },
+    {
+      "id": "ryuikioutline",
+      "minzoom": 8,
+      "maxzoom": 20,
+      "paint": {
+        "line-color": "#2e8b57 ",
+        "line-opacity": 0.3,
+        "line-width": 1.5
+      },
+      "source": "ibaraki",
+      "source-layer": "ryuiki",
+      "type": "line"
+    },
+    {
+      "id": "gyousei",
+      "minzoom": 8,
+      "maxzoom": 20,
+      "paint": {
+        "line-color": "#ff8c00 ",
+        "line-opacity": 0.5,
+        "line-width": 2
+      },
+      "source": "ibaraki",
+      "source-layer": "gyousei",
+      "type": "line"
+    }
+  ]
+}
