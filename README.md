@@ -26,7 +26,7 @@ style:https://magn01ia.github.io/kasen-vt/zxy/ibaraki/style.json
 zoom：10-14  
 - 流域(昭和52年)  
 zoom:10-14
-- 行政区域(令和4年)
+- 行政区域(令和4年)  
 zoom:10-14
 
 
