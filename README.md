@@ -17,8 +17,8 @@ charites
 
 ### 目次  
 #### 茨城県
-url:  
-style:
+url:https://magn01ia.github.io/kasen-vt/zxy/ibaraki/{z}/{x}/{y}.pbf
+style:https://magn01ia.github.io/kasen-vt/zxy/ibaraki/style.json
 - 河川(平成20年)  
 zoom：10-14  
 - 流域(昭和52年)  
